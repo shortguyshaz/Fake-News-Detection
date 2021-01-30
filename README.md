@@ -1,5 +1,7 @@
 # Fake-News-Detection
 
-I created a neural network to detect fake news using TF-IDF and used this model as reference: https://data-flair.training/blogs/advanced-python-project-detecting-fake-news/
+In this project I implemented neural networks to detect fake news articles. I did this by two methods:
 
-I have achieved 92% accuracy but aim to improve it by using LSTM cells.
+The first one uses TF-IDF to classify and detect fake news. This was approximately 92% accurate. I used this model as a reference to create my neural network: https://data-flair.training/blogs/advanced-python-project-detecting-fake-news/
+
+The second one uses LSTM cells and Recurring Neural Network (RNN) to detect and classify fake news. This model was nearly 99% accurate which is significantly more accurate than the first method. I used this model as a reference: https://medium.com/analytics-vidhya/fake-news-detection-with-lstm-a0f7aeeca982
